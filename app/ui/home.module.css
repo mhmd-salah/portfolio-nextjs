@@ -1,4 +1,7 @@
-.btn{
-  transform: translateY(-3px);
-  transition: .3s;
+.head{
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  z-index: 111;
+  text-align: center;
 }

@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import styles from "./ui/home.module.css"
+
 export default function Home () {
   return (
     <main className="w-screen h-screen relative">
@@ -40,7 +42,7 @@ export default function Home () {
         </div>
       </div>
       {/* 2 */ }
-      <div className="absolute bottom-10 z-[20] right-5  flex-col  md:hidden">
+      <div className="absolute flex bottom-10 z-[20] right-5  flex-col  md:hidden ">
         <Link
           href={ "/my-skills" }
           className="group rounded-[20px] bg-sky-400 hover:bg-sky-500 transition px-5 py-3 text-lg text-white max-w-[200px]"
