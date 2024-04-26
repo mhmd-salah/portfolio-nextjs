@@ -1,0 +1,4 @@
+.btn{
+  transform: translateY(-3px);
+  transition: .3s;
+}
