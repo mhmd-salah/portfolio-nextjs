@@ -102,3 +102,4 @@ export default function Home() {
   );
 }
 // hello mohamed salah
+console.log("hello world");
